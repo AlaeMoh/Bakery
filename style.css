@@ -1,0 +1,428 @@
+*{margin:0%;
+}
+
+.intro{
+    background-color: blue;
+    height: 120vh ;
+    background-image: url(./images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+
+}
+
+.navbar{
+    padding: 10px 65px ;
+    background-color: #000000;
+}
+
+.logo{
+    height: 65px; width: 200px;
+}
+
+.home{
+    float: right;
+    padding: 15px;
+}
+
+
+.home a {
+    padding-top: 10px;
+    font-size: large;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.welcome{
+ 
+ 
+    text-align: center;
+    padding: 130px;
+    color: #fff;
+    height: 25%;
+    width: 75%;
+}
+
+.welcome p, h1, button {
+    padding: 10px;
+}
+.welcome p {
+ 
+    font-size: 25px;
+}
+.fbakery{
+
+    font-size: 60px;
+
+}
+
+.button1,.button2 {
+    height: 60px; width: 130px;
+    border-radius: 5px
+    
+    }
+    
+    .button1{
+        background-color:#8e7754 ;
+    }
+    
+   /* second part */
+
+   .second{
+    height: 120vh;
+   }
+  
+   .pic1 {
+    width: 50%;
+    display: inline-block;
+
+   }
+   .pic1 img{
+    padding: 60px;
+    width: 500px; height: 100vh;
+    
+   }
+   .bpic{
+    width: 50%;
+    float: right;
+    padding-top: 80px;
+
+   }
+
+
+   .list, .itext{
+    padding: 20px;
+   }
+   
+   .list img{
+    width: 40px; height: 40px;
+    border-radius: 100%;
+    border:rgb(227, 227, 227) solid;
+   }
+
+   .list span, img{
+    padding: 10px;
+    margin-top: 10px;
+
+    }
+    .list span{
+        position: absolute;
+    }
+    .itext{
+
+        font-size: larger;
+    }
+    .itext h2{
+       color:  #303030;
+       font-weight:200;
+       font-family: inherit;
+       padding: 10px;
+       margin-bottom: 5px;
+    }
+
+    .itext p, .list span{
+        font: weight 400px;;
+        color:#686868;
+        font-family: sans-serif;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+      /* Third section */
+
+      .third{
+        background-color: #f8f8f8;
+        height: 110vh;
+
+      }
+
+      .location{
+        height: 100vh;
+        width: 45%;
+        display: inline-block;
+        font-family: inherit;
+        font-weight: 400;
+        padding-top: 80px;
+        
+      }
+
+      .olocation{
+            
+            margin-left: 60px;
+            margin-top: 30px;
+            line-height: 30px;
+            
+      }
+      .location p {
+        color: #686868;
+      }
+      .pic2{
+        width: 50%;
+        height: 100vh;
+        float: right;
+
+
+      }
+      .pic2 img{
+        padding: 60px;
+        width: 550px; height: 80vh;
+      }
+
+
+      /* Fourth section */
+
+    .four{
+        height: 130vh;
+
+    }
+
+    .title {
+        text-align: center;
+        height: 100px;
+        padding-top: 30px;
+    }
+    .title h3 {
+        font-size: 30px;
+        font-family:inherit;
+        padding-bottom: 10px;
+    }
+
+    .title p{
+        font-size: 20px;
+        color: #888;
+    }
+    .four img{
+        width: 350px;
+        height: 300px;
+    }
+
+    .menu {
+        width: 25%;
+        display: inline-block;
+        padding: 40px;
+        text-align: center;
+        padding-right: 40px;
+    }
+
+    .menu h4{
+
+        font-family: inherit;
+        font-size: 22px;
+        color: #303030;
+    }
+    .menu p {
+        font-size: 17px;
+        font-family: inherit;
+        color: #686868;
+        line-height: 30px;
+    }
+    
+   /* fifth section */
+
+   
+   .fifth{
+    height: 120vh;
+    background-color: #f8f8f8;
+   }
+
+    .pcontact h2{
+        font size:30px;
+        color: #303030;
+        font-weight: 400;
+
+
+    }
+
+   .pcontact{
+    width: 40%;
+    height: 100vh;
+    padding: 60px;
+    display: inline-block ;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 30px;
+    color: #686868;
+
+   }
+
+        
+   
+   .cdetails img{
+    width: 25px; height: 25px;
+    border-radius: 100%;
+    border:rgb(227, 227, 227) solid;
+    background-color: #8e7754;
+   }
+
+    .cdetails img , span  {
+        margin: 10px;
+        
+
+    }
+    .cdetails span {
+        position: absolute;
+        padding-top: 10px;
+   }
+
+   .map {
+    width: 50%;
+    float: right;
+    height: 100vh;
+    padding-top: 60px;
+
+   }
+
+
+   /* sixth section */
+   
+
+   .sixth{
+
+    background-color: #403d38;
+    height: 80vh;
+   }
+
+   .header{
+    height: 50px;
+   }
+
+   .sixth h4{
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+
+   }
+
+
+   .sixth p, ul, span {
+    font-size: 14px;
+    color: #969696;
+    font-family: inherit;
+    
+   }
+
+   .about{
+    width: 20%;
+    height: 60vh;
+    padding-top: 10px;
+    display: inline-block;
+    padding: 36px;
+    float: left;
+    
+    
+   }
+
+   .recepie{
+    width: 20%;
+    height: 60vh;
+    float: left;
+    padding: 30px;
+
+
+   }
+
+   .magical{
+    display: inline;
+    line-height: 30px;
+    list-style-type:none;
+    
+   }
+   .spacing{
+    height: 10px;
+    color: #303030;
+   }
+
+   .hour{
+    width: 20%;
+    height: 60vh;
+    float: left;
+    padding: 30px;
+
+
+   }
+
+   .details4{
+
+    width: 20%;
+    height: 60vh;
+    background-image: url(./images/contact-details-map.png);
+    float: right;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+   }
+
+   .details4 img{
+    width: 30px; height: 30px;
+   
+   }
+   .fcontact{
+    padding-right: 20px;
+    height: 150px;
+   }
+
+   .fcontact span{
+    position: absolute;
+    padding-top: 15px;
+    padding-right: 15px;
+
+   }
+           /* last part */
+
+   .last{
+    background-color: #353330;
+    height:50vh;
+    padding-top: 10px;
+    text-align: center;
+   }
+   .ibakery{
+ }
+
+   .whiteimg{
+    width: 400px;
+    height: 100px;
+   margin: auto;
+   }
+
+
+   .copyright{
+    padding-top: 35px;
+    font-size: 13px;
+    font-family: inherit;
+    color:  #777;
+   }
+
+   .icons{
+    padding-top: 25px;
+   }
+   .icons img {
+    width: 25px; height: 25px;
+    border-radius: 100%;
+    background-color: 484540;
+   }
+
+
+
+
+
+
+
+
+
+
+
+   .clearfix{
+    clear: right;
+   }
+
+
+
+
+
+
+
+
+
+
+
