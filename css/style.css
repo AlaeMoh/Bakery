@@ -1,28 +1,20 @@
 *{margin:0%;
 }
 
-.intro{
-    background-color: blue;
-    height: 120vh ;
-    background-image: url(./images/drew-coffman-1872.jpg);
-    background-size: 100% 100%;
-
+.sec1{
+    background-image: url("/images/drew-coffman-1872.jpg");
+    height: 150vh;
+    background-color: tomato;
 }
 
 .navbar{
-    padding: 10px 65px ;
-    background-color: #000000;
-}
+    /* padding: 10px 65px ; */
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 
-.logo{
-    height: 65px; width: 200px;
 }
-
-.home{
-    float: right;
-    padding: 15px;
-}
-
 
 .home a {
     padding-top: 10px;
@@ -30,7 +22,33 @@
     color: #fff;
     padding-left: 10px;
     padding-right: 10px;
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+    right: 70px;
+    font-family: "Alegreya";
 }
+
+
+
+.logo img{
+    height: 50px; width: 180px;
+    margin-left: 30px;
+}
+
+ 
+
+.intro{
+    /* background-color: blue; */
+    height: 120vh ;
+    background-size: 100% 100%;
+    /* background-image: url("/images/drew-coffman-1872.jpg");
+    background-size: auto; */
+
+}
+
+
+
 .welcome{
  
  
